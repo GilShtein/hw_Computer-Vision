@@ -21,7 +21,6 @@ dependencies:
   - entrypoints
   - freeglut
   - freetype
-  - icc_rt
   - icu
   - importlib-metadata
   - intel-openmp
@@ -49,18 +48,12 @@ dependencies:
   - libtiff
   - libwebp-base
   - lz4-c
-  - m2w64-gcc-libgfortran
-  - m2w64-gcc-libs
-  - m2w64-gcc-libs-core
-  - m2w64-gmp
-  - m2w64-libwinpthread-git
   - markupsafe
   - matplotlib
   - matplotlib-base
   - mistune
   - mkl
   - mkl-service
-  - msys2-conda-epoch
   - nbclient
   - nbconvert
   - nbformat
@@ -95,8 +88,6 @@ dependencies:
   - python-dateutil
   - python_abi
   - pytz
-  - pywin32
-  - pywinpty
   - pyzmq
   - qt
   - retrying
@@ -118,33 +109,28 @@ dependencies:
   - tqdm
   - traitlets
   - typing_extensions
-  - vc
-  - vs2015_runtime
   - wcwidth
   - webencodings
   - wheel
-  - wincertstore
-  - winpty
   - xz
   - zeromq
   - zipp
   - zlib
   - zstd
   - pip:
-    - alembic
-    - cliff
-    - cmaes
-    - cmd2
-    - colorlog
-    - greenlet
-    - mako
-    - optuna
-    - pbr
-    - prettytable
-    - pyperclip
-    - pyreadline
-    - python-editor
-    - pyyaml
-    - sqlalchemy
-    - stevedore
-
+      - alembic
+      - cliff
+      - cmaes
+      - cmd2
+      - colorlog
+      - greenlet
+      - mako
+      - optuna
+      - pbr
+      - prettytable
+      - pyperclip
+      - pyreadline
+      - python-editor
+      - pyyaml
+      - sqlalchemy
+      - stevedore
